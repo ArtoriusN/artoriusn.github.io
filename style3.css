@@ -1,0 +1,31 @@
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 60px;
+    border: 1px solid #000;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    background-color: rgb(96, 92, 92);
+    align-items: center;
+}
+.block{
+    height: 300px;
+    width: 500px;
+    border: 1px solid #000;
+}
