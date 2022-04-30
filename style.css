@@ -290,6 +290,9 @@ hr {
 .header-address {
     padding: 56px 0 24px 0;
 }
+.header-address__text {
+    max-width: 299px;
+}
 .header-phone {
     padding: 40px 0 24px 0;
 }
