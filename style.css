@@ -258,6 +258,33 @@ hr {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+.header_info {
+    background-image: url(img/contact-bg.svg);
+    background-repeat: no-repeat;
+    margin-top: 54px;
+}
+.header_info__box {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+}
+.header_info__h2 {
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 51px 0 16px 0;
+}
+.header_info__text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 49px;
+}
 @media (max-width: 1196px) {
     .header {
         padding: 52px 32px 0 32px;
