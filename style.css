@@ -232,10 +232,6 @@ hr {
 .footer__copy__text {
     color: #FFFFFF;
 }
-.content {
-    display: flex;
-    justify-content: space-between;
-}
 .h4 {
     font-size: 20px;
     line-height: 30px;
@@ -286,7 +282,10 @@ hr {
     padding-bottom: 49px;
 }
 .content {
-    padding: 0 117px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 96px;
 }
 .header-address {
     padding: 56px 0 24px 0;
@@ -294,14 +293,81 @@ hr {
 .header-phone {
     padding: 40px 0 24px 0;
 }
-.header-phone__list {
+.header__list {
     display: flex;
     padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
 }
 .header-phone__list::before {
     content: url(img/phone.svg);
     display: block;
-    margin-right: 16px;
+    margin-right: 18px;
+}
+.header-online {
+    padding: 24px 0 24px 0;
+}
+.header-online__site::before {
+    content: url(img/www.svg);
+    display: block;
+    margin: 4px 18px 0 0;
+}
+.header-online__email::before {
+    content: url(img/email.svg);
+    display: block;
+    margin: 4px 18px 0 0;
+}
+.header__list__href {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+.contacts-info {
+    padding-top: 75px;
+}
+.form {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    min-width: 540px;
+}
+.header-send {
+    padding-bottom: 48px;
+}
+.form__box {
+    display: flex;
+    flex-direction: column;
+    padding: 56px 56px 56px 56px;
+}
+.form__text {
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+.inputtxtarea {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+    padding: 21px 42px;
+    margin-bottom: 32px;
+    max-height: 144px;
+}
+.button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 23px;
+    border: 0;
+    margin-top: 40px;
 }
 @media (max-width: 1196px) {
     .header {
